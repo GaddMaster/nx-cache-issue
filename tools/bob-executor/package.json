@@ -1,0 +1,6 @@
+{
+  "name": "bob-executor",
+  "version": "1.0.0",
+  "main": "./src/executors/executor/executor.impl.js",
+  "executors": "./executors.json"
+}

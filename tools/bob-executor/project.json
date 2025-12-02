@@ -1,0 +1,14 @@
+{
+  "name": "bob-executor",
+  "$schema": "../../node_modules/nx/schemas/project-schema.json",
+  "sourceRoot": "tools/bob-executor/src",
+  "projectType": "library",
+  "targets": {
+    "bob": {
+      "executor": "./tools/bob-executor:executor",
+      "options": {
+        "outputPath": "tools/bob-executor"
+      }
+    }
+  }
+}

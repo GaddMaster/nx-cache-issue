@@ -1,0 +1,10 @@
+{
+  "$schema": "https://raw.githubusercontent.com/nrwl/nx/master/packages/nx/schemas/executors.json",
+  "executors": {
+    "executor": {
+      "implementation": "./src/executors/executor/executor.impl.js",
+      "schema": "./src/executors/executor/schema.json",
+      "description": "Bob executor for debugging"
+    }
+  }
+}

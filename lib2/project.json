@@ -1,0 +1,14 @@
+{
+  "name": "lib2",
+  "$schema": "../node_modules/nx/schemas/project-schema.json",
+  "sourceRoot": "lib2/src",
+  "projectType": "library",
+  "targets": {
+    "bob": {
+      "executor": "./tools/bob-executor:executor",
+      "options": {
+        "outputPath": "lib2"
+      }
+    }
+  }
+}
